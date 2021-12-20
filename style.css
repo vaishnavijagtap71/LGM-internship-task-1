@@ -1,0 +1,724 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.Menu{
+    height: 98vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(home.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    /* padding-left: 308px; */
+    top: 0;
+}
+
+#logo{
+   font-weight: bold;
+   font-size: 35px;
+   color: white;
+   font-family: 'Baloo Tamma 2', cursive;
+   padding-left: 308px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+    padding-right: 216px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 90px;
+}
+#active{
+    color: yellow;
+}
+nav ul li a{
+   text-decoration: none;
+   font-size: 10px;
+   color: white;
+   font-family: 'Open Sans', sans-serif;   
+   margin: -20px;
+}
+.heading{
+    margin-left: 365px;
+    margin-top: 90px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#paragraph1{
+    padding-top: 20px;
+    color: white;
+}
+.butn{
+    padding-top: 20px;
+}
+#bt1{
+    padding: 10px 30px;
+    border: 2px solid yellow;
+    background-color: yellow;
+    color: black;
+    margin: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+#bt2{
+    padding: 10px 30px;
+    border: 2px solid purple;
+    background-color: purple;
+    color: white;
+    margin: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.dots{
+    margin-left: 380px;
+    margin-top: 330px;
+}
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+}
+#white{
+    background-color: white;
+}
+#Welcomecontainer{
+    background-color: white;
+    /* height: 80vh; */
+    /* width: 100vw; */
+    padding-top: 780px;
+    height:700px;
+}
+.welcome{
+    padding-top: 0px;
+    padding: 50px 657px ;
+    /* background-color: rgb(92, 60, 60)2, 60, 60); */
+}
+#welcome{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pu{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 520px;
+    margin-right: 520px;
+}
+#paragraph2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.images{
+    margin-left: 420px;
+    margin-right: 420px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.img{
+    border-radius: 50%;
+}
+/* .box{ */
+    /* background-color: aqua; */
+    
+/* } */
+.imgHeading{
+    color: purple;
+    margin: 27px;
+
+}
+.imgPara{
+    color: #bbb;
+    margin: 27px;
+
+}
+#bt3{
+    padding: 10px 30px;
+    border: 2px solid yellow;
+    background-color: yellow;
+    color: black;
+    margin-left: 35px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+#bt4{
+    padding: 10px 30px;
+    border: 2px solid purple;
+    background-color: purple;
+    color: black;
+    margin-left: 40px;
+    margin-top: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.hr{
+    padding-top: 160px;
+}
+#hr{
+    color: #bbb;
+    padding-top: 111px;
+}
+.project{
+    /* margin-top: 602px; */
+    margin-top: 890px;
+    font-family: 'Open Sans', sans-serif;
+}
+.proHeading{
+    margin-left: 700px;
+}
+.proContent{
+    display: inline-block;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-block-start: 50px;
+
+}
+#pro{
+    font-size: 35px;
+    font-weight: bold;
+}
+.proImg{
+    width: 100%;
+}
+.proHead{
+    padding: 10px;
+}
+.proPara{
+    padding: 10px;
+}
+#bt5{
+    padding: 10px 30px;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    margin-left: 35px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.col{
+    background-color: #bbb;
+}
+#yellow{
+    background-color: yellow;
+}
+#bt6{
+    padding: 10px 30px;
+    border: 2px solid purple;
+    background-color: purple;
+    color: black;
+    margin-left: 35px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.pricing{
+    margin-left: 400px;
+    margin-right: 300px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto  auto auto;
+}
+.prHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#prHeading{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pgh{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.pgp{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    margin-left: 29px;
+}
+.pl{
+    color: #bbb;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5px;
+}
+.margin{
+    margin-top: 10px;
+}
+
+/* Styling of Video Project Section */
+#videoProjects{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.vp{
+
+    height: 625px;
+    width: 100%;
+    background-color: rgb(95, 42, 145);
+}
+.videoHeading{
+    padding-left: 635px;
+    padding-top: 38px;
+    padding-bottom: 10px;
+}
+#videoHeading{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.v{
+    width: 500px;
+    height: 375px;
+}
+.video{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.videos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 30px;
+}
+.vimg1{
+    width: 420px;
+    height: 450px;
+}
+.vimg2{
+    width: 626px;
+}
+.vimg3{
+    width: 311px;
+}
+
+/* End of video project section */
+
+/* Styling of Zippy team section */
+#zippyTeam{
+    margin-top: 30px;
+}
+.zpH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#zpH{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.team{
+    margin-left: 330px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.teambox{
+    padding: 20px;
+
+}
+.teamname{
+    margin-left: -4px;
+}
+.teamposition{
+    margin-left: 12px;
+    color: #bbb
+} 
+.teamimg{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}   
+.teamimg:hover{
+background-color: blueviolet;
+}  
+/* Start of Life in zippy section */
+#liz{
+    background-color: #bbb;
+    height: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    margin-left: 260px;
+    margin-right: 300px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .imgLiz{
+      width: 100%;
+      height: 350px;
+  }
+/* End of life in zippy section */
+
+
+/* Start of newsletter signup section  */
+#newsletter{
+    margin-bottom: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(nb.jfif);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    width: 152vw;
+    height: 300px;
+    opacity: 0.8;
+}
+.ns{
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 530px;
+}
+#ns{
+    font-size: 50px;
+    color: rgb(247, 247, 247);
+    font-family: 'Open Sans', sans-serif;
+}
+.line{
+    display: inline-flex;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 470px;
+    background-color: white;
+    height: 50px;
+    width: 600px;
+}
+#email{
+    display: inline;
+    padding-top: 13px;
+    padding-left: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #bbb;
+}
+#bt7{
+    border: 2px solid yellow;
+    padding: 17px 24px;
+    margin-left: 322px;
+    color: black;
+    background-color: yellow;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+#bt8{
+    border: 2px solid purple;
+    padding: 12px 24px;
+    margin-left: 965px;
+    margin-top: 10px;
+    color: black;
+    background-color: purple;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Styling for blog section */
+#blog{
+    padding-top: 50px;
+    margin-top: 50px;
+    height: 880px;
+}
+.bH{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bh{
+    padding-top: 260px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.blogContainer{
+    margin-left: 321px;
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.bbh{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-left: 70px;
+    padding-top: 13px;
+}
+.bbh2{
+    padding-left: 111px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.dt{
+    padding-top: 10px;
+    padding-left: 105px;
+    color: #bbb;
+}
+.bp1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.bp2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding-left: 34px;
+}
+.bp3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding-left: 10px;
+}
+.bp4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding-left: 40px;
+}
+#bt9{
+    margin-top: 10px;
+    padding-top: 23px;
+    border: 2px solid yellow;
+    padding: 10px 24px;
+    margin-left: 80px;
+    color: black;
+    background-color: yellow;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+#bt10{
+    margin-top: 10px;
+    padding-top: 23px;
+    border: 2px solid #bbb;
+    padding: 10px 24px;
+    margin-left: 80px;
+    color: black;
+    background-color: #bbb;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Styling of contact section */
+#contact{
+    height: 500px;
+    margin-bottom: 200px;
+}
+.contactgrid{
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.map{
+    width: 780px;
+    height: 600px;
+}
+.contact{
+   margin-top: 50px;
+   margin-left: -370px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
+   font-size: 30px;
+}
+.cotnactelement{
+    padding-left: 8px;
+    padding-top: 15px;
+}
+.element{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.elementanswer{
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 340px;
+    background-color: white;
+    height: 35px;
+}
+#bt11{
+    margin-top: 32px;
+    padding-top: 23px;
+    border: 2px solid purple;
+    padding: 11px 150px;
+    color: white;
+    background-color: purple;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+/* styling for footer area */
+#footer{
+    margin-bottom: 200px;
+}
+.footer{
+    margin-left: 321px;
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.fbh{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-left: 70px;
+    padding-top: 13px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.fp1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding-left: 62px;
+    padding-top: 10px;
+
+}
+.fp2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding-left: 78px;
+}
+.fp3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding-left: 107px;
+}
